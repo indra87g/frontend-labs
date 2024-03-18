@@ -1,0 +1,51 @@
+<style>
+  .modal {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  .close-modal,
+  .show-modal {
+    background-color: #4caf50;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+  }
+
+  .close-modal:hover,
+  .show-modal:hover {
+    background-color: #45a049;
+  }
+</style>
+
+<dialog class="modal">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, omnis.</p>
+  <button class="close-modal" autofocus>Close</button>
+</dialog>
+
+<button class="show-modal">Show the dialog</button>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const modal = document.querySelector(".modal");
+    const showModal = document.querySelector(".show-modal");
+    const closeModal = document.querySelector(".close-modal");
+
+    showModal.addEventListener("click", () => {
+      modal.showModal();
+    });
+
+    closeModal.addEventListener("click", () => {
+      modal.close();
+    });
+  });
+</script>
