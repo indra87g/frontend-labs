@@ -1,0 +1,25 @@
+<script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
+<script>
+  new Splide( '.splide' ).mount();
+</script>
+<script>
+  document.addEventListener( 'DOMContentLoaded', function() {
+    var splide = new Splide( '.splide' );
+    splide.mount();
+  } );
+</script>
+
+<div class="splide" role="group" aria-label="Splide Basic HTML Example">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">Slide 01</li>
+			<li class="splide__slide">Slide 02</li>
+			<li class="splide__slide">Slide 03</li>
+		</ul>
+  </div>
+</div>

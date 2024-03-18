@@ -1,0 +1,33 @@
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app">{{ message }}</div>
+<div id="app">
+  <button @click="count++">{{ count }}</button>
+</div>
+
+<script>
+import { createApp } from 'vue'
+
+const app = createApp({
+  data() {
+    return {
+      count: 0
+    }
+  }
+})
+
+app.mount('#app')
+</script>
+
+<script>
+  const { createApp, ref } = Vue
+
+  createApp({
+    setup() {
+      const message = ref('Hello vue!')
+      return {
+        message
+      }
+    }
+  }).mount('#app')
+</script>
