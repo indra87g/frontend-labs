@@ -1,0 +1,26 @@
+h1,
+h2,
+p,
+a {
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+.digital-clock {
+  overflow: hidden;
+  width: 330px;
+  margin: 20px auto;
+  border: 5px solid #efefef;
+}
+.box {
+  float: left;
+  width: 110px;
+  height: 100px;
+  background-color: #189fff;
+}
+.digital-clock p {
+  color: #fff;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formspree API</title>
+  <link rel="stylesheet" href="../css/formspree.css">
+</head>
+<body>
+  <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+  <!-- GET THE FORM ID FROM : https://formspree.io -->
+  <fieldset id="fs-frm-inputs">
+    <label for="full-name">Full Name</label>
+    <input type="text" name="name" id="full-name" placeholder="First and Last" required="" data-twofas-input-listener="true" data-twofas-element-number="0">
+    <label for="email-address">Email Address</label>
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+    <label for="telephone">Telephone Number (Optional)</label>
+    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
+    <label for="complaint">Complaint</label>
+    <textarea rows="6" name="complaint" id="complaint" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required="" data-twofas-input-listener="true" data-twofas-element-number="1"></textarea>
+    <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+  </fieldset>
+  <input type="submit" value="File Complaint" data-twofas-element-number="2">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,4241 @@
+@charset "UTF-8";
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  width: 100%;
+}
+
+.input-wrapper {
+  display: block;
+  font-family: monospace;
+  font-size: 125%;
+  width: 50%;
+}
+.input-wrapper > input,
+.input-wrapper > .placeholder {
+  display: block;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper > .placeholder {
+  pointer-events: none;
+}
+.input-wrapper > .placeholder::before {
+  content: "​";
+  content: "​"/"How many roads must a man walk down before you call him a man?";
+  alt: "How many roads must a man walk down before you call him a man?";
+  white-space: break-spaces;
+  will-change: content;
+  -webkit-animation: typed-0 26.88s linear 1s infinite forwards;
+  animation: typed-0 26.88s linear 1s infinite forwards;
+}
+.input-wrapper > .placeholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  -webkit-animation: typed-0-caret 0.75s linear 1s infinite forwards;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@-webkit-keyframes typed-0 {
+  0%,
+  0.247015873% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.248015873%,
+  0.495031746% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.496031746%,
+  0.743047619% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.744047619%,
+  0.9910634921% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.9920634921%,
+  1.2390793651% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.2400793651%,
+  1.4870952381% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.4880952381%,
+  1.7351111111% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.7361111111%,
+  1.9831269841% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.9841269841%,
+  2.2311428571% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.2321428571%,
+  2.4791587302% {
+    content: "​How many r";
+    content: "​How many r"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.4801587302%,
+  2.7271746032% {
+    content: "​How many ro";
+    content: "​How many ro"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.7281746032%,
+  2.9751904762% {
+    content: "​How many roa";
+    content: "​How many roa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.9761904762%,
+  3.2232063492% {
+    content: "​How many road";
+    content: "​How many road"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.2242063492%,
+  3.4712222222% {
+    content: "​How many roads";
+    content: "​How many roads"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.4722222222%,
+  3.7192380952% {
+    content: "​How many roads ";
+    content: "​How many roads "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.7202380952%,
+  3.9672539683% {
+    content: "​How many roads m";
+    content: "​How many roads m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.9682539683%,
+  4.2152698413% {
+    content: "​How many roads mu";
+    content: "​How many roads mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.2162698413%,
+  4.4632857143% {
+    content: "​How many roads mus";
+    content: "​How many roads mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.4642857143%,
+  4.7113015873% {
+    content: "​How many roads must";
+    content: "​How many roads must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.7123015873%,
+  4.9593174603% {
+    content: "​How many roads must ";
+    content: "​How many roads must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.9603174603%,
+  5.2073333333% {
+    content: "​How many roads must a";
+    content: "​How many roads must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.2083333333%,
+  5.4553492063% {
+    content: "​How many roads must a ";
+    content: "​How many roads must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.4563492063%,
+  5.7033650794% {
+    content: "​How many roads must a m";
+    content: "​How many roads must a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.7043650794%,
+  5.9513809524% {
+    content: "​How many roads must a ma";
+    content: "​How many roads must a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.9523809524%,
+  6.1993968254% {
+    content: "​How many roads must a man";
+    content: "​How many roads must a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.2003968254%,
+  6.4474126984% {
+    content: "​How many roads must a man ";
+    content: "​How many roads must a man "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.4484126984%,
+  6.6954285714% {
+    content: "​How many roads must a man w";
+    content: "​How many roads must a man w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.6964285714%,
+  6.9434444444% {
+    content: "​How many roads must a man wa";
+    content: "​How many roads must a man wa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.9444444444%,
+  7.1914603175% {
+    content: "​How many roads must a man wal";
+    content: "​How many roads must a man wal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.1924603175%,
+  7.4394761905% {
+    content: "​How many roads must a man walk";
+    content: "​How many roads must a man walk"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.4404761905%,
+  7.6874920635% {
+    content: "​How many roads must a man walk ";
+    content: "​How many roads must a man walk "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.6884920635%,
+  7.9355079365% {
+    content: "​How many roads must a man walk d";
+    content: "​How many roads must a man walk d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.9365079365%,
+  8.1835238095% {
+    content: "​How many roads must a man walk do";
+    content: "​How many roads must a man walk do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.1845238095%,
+  8.4315396825% {
+    content: "​How many roads must a man walk dow";
+    content: "​How many roads must a man walk dow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.4325396825%,
+  8.6795555556% {
+    content: "​How many roads must a man walk down";
+    content: "​How many roads must a man walk down"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.6805555556%,
+  8.9275714286% {
+    content: "​How many roads must a man walk down ";
+    content: "​How many roads must a man walk down "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.9285714286%,
+  9.1755873016% {
+    content: "​How many roads must a man walk down b";
+    content: "​How many roads must a man walk down b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.1765873016%,
+  9.4236031746% {
+    content: "​How many roads must a man walk down be";
+    content: "​How many roads must a man walk down be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.4246031746%,
+  9.6716190476% {
+    content: "​How many roads must a man walk down bef";
+    content: "​How many roads must a man walk down bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.6726190476%,
+  9.9196349206% {
+    content: "​How many roads must a man walk down befo";
+    content: "​How many roads must a man walk down befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.9206349206%,
+  10.1676507937% {
+    content: "​How many roads must a man walk down befor";
+    content: "​How many roads must a man walk down befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.1686507937%,
+  10.4156666667% {
+    content: "​How many roads must a man walk down before";
+    content: "​How many roads must a man walk down before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.4166666667%,
+  10.6636825397% {
+    content: "​How many roads must a man walk down before ";
+    content: "​How many roads must a man walk down before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.6646825397%,
+  10.9116984127% {
+    content: "​How many roads must a man walk down before y";
+    content: "​How many roads must a man walk down before y"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.9126984127%,
+  11.1597142857% {
+    content: "​How many roads must a man walk down before yo";
+    content: "​How many roads must a man walk down before yo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.1607142857%,
+  11.4077301587% {
+    content: "​How many roads must a man walk down before you";
+    content: "​How many roads must a man walk down before you"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.4087301587%,
+  11.6557460317% {
+    content: "​How many roads must a man walk down before you ";
+    content: "​How many roads must a man walk down before you "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.6567460317%,
+  11.9037619048% {
+    content: "​How many roads must a man walk down before you c";
+    content: "​How many roads must a man walk down before you c"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.9047619048%,
+  12.1517777778% {
+    content: "​How many roads must a man walk down before you ca";
+    content: "​How many roads must a man walk down before you ca"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.1527777778%,
+  12.3997936508% {
+    content: "​How many roads must a man walk down before you cal";
+    content: "​How many roads must a man walk down before you cal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.4007936508%,
+  12.6478095238% {
+    content: "​How many roads must a man walk down before you call";
+    content: "​How many roads must a man walk down before you call"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.6488095238%,
+  12.8958253968% {
+    content: "​How many roads must a man walk down before you call ";
+    content: "​How many roads must a man walk down before you call "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.8968253968%,
+  13.1438412698% {
+    content: "​How many roads must a man walk down before you call h";
+    content: "​How many roads must a man walk down before you call h"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.1448412698%,
+  13.3918571429% {
+    content: "​How many roads must a man walk down before you call hi";
+    content: "​How many roads must a man walk down before you call hi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.3928571429%,
+  13.6398730159% {
+    content: "​How many roads must a man walk down before you call him";
+    content: "​How many roads must a man walk down before you call him"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.6408730159%,
+  13.8878888889% {
+    content: "​How many roads must a man walk down before you call him ";
+    content: "​How many roads must a man walk down before you call him "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.8888888889%,
+  14.1359047619% {
+    content: "​How many roads must a man walk down before you call him a";
+    content: "​How many roads must a man walk down before you call him a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.1369047619%,
+  14.3839206349% {
+    content: "​How many roads must a man walk down before you call him a ";
+    content: "​How many roads must a man walk down before you call him a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.3849206349%,
+  14.6319365079% {
+    content: "​How many roads must a man walk down before you call him a m";
+    content: "​How many roads must a man walk down before you call him a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.6329365079%,
+  14.879952381% {
+    content: "​How many roads must a man walk down before you call him a ma";
+    content: "​How many roads must a man walk down before you call him a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.880952381%,
+  15.127968254% {
+    content: "​How many roads must a man walk down before you call him a man";
+    content: "​How many roads must a man walk down before you call him a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  15.128968254%,
+  20.5347142857% {
+    content: "​How many roads must a man walk down before you call him a man?";
+    content: "​How many roads must a man walk down before you call him a man?"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.5357142857%,
+  20.7331269841% {
+    content: "​How many roads must a man walk down before you call him a man";
+    content: "​How many roads must a man walk down before you call him a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.7341269841%,
+  20.9315396825% {
+    content: "​How many roads must a man walk down before you call him a ma";
+    content: "​How many roads must a man walk down before you call him a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.9325396825%,
+  21.129952381% {
+    content: "​How many roads must a man walk down before you call him a m";
+    content: "​How many roads must a man walk down before you call him a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.130952381%,
+  21.3283650794% {
+    content: "​How many roads must a man walk down before you call him a ";
+    content: "​How many roads must a man walk down before you call him a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.3293650794%,
+  21.5267777778% {
+    content: "​How many roads must a man walk down before you call him a";
+    content: "​How many roads must a man walk down before you call him a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.5277777778%,
+  21.7251904762% {
+    content: "​How many roads must a man walk down before you call him ";
+    content: "​How many roads must a man walk down before you call him "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.7261904762%,
+  21.9236031746% {
+    content: "​How many roads must a man walk down before you call him";
+    content: "​How many roads must a man walk down before you call him"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.9246031746%,
+  22.122015873% {
+    content: "​How many roads must a man walk down before you call hi";
+    content: "​How many roads must a man walk down before you call hi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.123015873%,
+  22.3204285714% {
+    content: "​How many roads must a man walk down before you call h";
+    content: "​How many roads must a man walk down before you call h"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.3214285714%,
+  22.5188412698% {
+    content: "​How many roads must a man walk down before you call ";
+    content: "​How many roads must a man walk down before you call "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.5198412698%,
+  22.7172539683% {
+    content: "​How many roads must a man walk down before you call";
+    content: "​How many roads must a man walk down before you call"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.7182539683%,
+  22.9156666667% {
+    content: "​How many roads must a man walk down before you cal";
+    content: "​How many roads must a man walk down before you cal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.9166666667%,
+  23.1140793651% {
+    content: "​How many roads must a man walk down before you ca";
+    content: "​How many roads must a man walk down before you ca"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.1150793651%,
+  23.3124920635% {
+    content: "​How many roads must a man walk down before you c";
+    content: "​How many roads must a man walk down before you c"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.3134920635%,
+  23.5109047619% {
+    content: "​How many roads must a man walk down before you ";
+    content: "​How many roads must a man walk down before you "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.5119047619%,
+  23.7093174603% {
+    content: "​How many roads must a man walk down before you";
+    content: "​How many roads must a man walk down before you"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.7103174603%,
+  23.9077301587% {
+    content: "​How many roads must a man walk down before yo";
+    content: "​How many roads must a man walk down before yo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.9087301587%,
+  24.1061428571% {
+    content: "​How many roads must a man walk down before y";
+    content: "​How many roads must a man walk down before y"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.1071428571%,
+  24.3045555556% {
+    content: "​How many roads must a man walk down before ";
+    content: "​How many roads must a man walk down before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.3055555556%,
+  24.502968254% {
+    content: "​How many roads must a man walk down before";
+    content: "​How many roads must a man walk down before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.503968254%,
+  24.7013809524% {
+    content: "​How many roads must a man walk down befor";
+    content: "​How many roads must a man walk down befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.7023809524%,
+  24.8997936508% {
+    content: "​How many roads must a man walk down befo";
+    content: "​How many roads must a man walk down befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.9007936508%,
+  25.0982063492% {
+    content: "​How many roads must a man walk down bef";
+    content: "​How many roads must a man walk down bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.0992063492%,
+  25.2966190476% {
+    content: "​How many roads must a man walk down be";
+    content: "​How many roads must a man walk down be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.2976190476%,
+  25.495031746% {
+    content: "​How many roads must a man walk down b";
+    content: "​How many roads must a man walk down b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.496031746%,
+  25.6934444444% {
+    content: "​How many roads must a man walk down ";
+    content: "​How many roads must a man walk down "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.6944444444%,
+  25.8918571429% {
+    content: "​How many roads must a man walk down";
+    content: "​How many roads must a man walk down"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.8928571429%,
+  26.0902698413% {
+    content: "​How many roads must a man walk dow";
+    content: "​How many roads must a man walk dow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.0912698413%,
+  26.2886825397% {
+    content: "​How many roads must a man walk do";
+    content: "​How many roads must a man walk do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.2896825397%,
+  26.4870952381% {
+    content: "​How many roads must a man walk d";
+    content: "​How many roads must a man walk d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.4880952381%,
+  26.6855079365% {
+    content: "​How many roads must a man walk ";
+    content: "​How many roads must a man walk "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.6865079365%,
+  26.8839206349% {
+    content: "​How many roads must a man walk";
+    content: "​How many roads must a man walk"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.8849206349%,
+  27.0823333333% {
+    content: "​How many roads must a man wal";
+    content: "​How many roads must a man wal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.0833333333%,
+  27.2807460317% {
+    content: "​How many roads must a man wa";
+    content: "​How many roads must a man wa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.2817460317%,
+  27.4791587302% {
+    content: "​How many roads must a man w";
+    content: "​How many roads must a man w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.4801587302%,
+  27.6775714286% {
+    content: "​How many roads must a man ";
+    content: "​How many roads must a man "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.6785714286%,
+  27.875984127% {
+    content: "​How many roads must a man";
+    content: "​How many roads must a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.876984127%,
+  28.0743968254% {
+    content: "​How many roads must a ma";
+    content: "​How many roads must a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.0753968254%,
+  28.2728095238% {
+    content: "​How many roads must a m";
+    content: "​How many roads must a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.2738095238%,
+  28.4712222222% {
+    content: "​How many roads must a ";
+    content: "​How many roads must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.4722222222%,
+  28.6696349206% {
+    content: "​How many roads must a";
+    content: "​How many roads must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.6706349206%,
+  28.868047619% {
+    content: "​How many roads must ";
+    content: "​How many roads must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.869047619%,
+  29.0664603175% {
+    content: "​How many roads must";
+    content: "​How many roads must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.0674603175%,
+  29.2648730159% {
+    content: "​How many roads mus";
+    content: "​How many roads mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.2658730159%,
+  29.4632857143% {
+    content: "​How many roads mu";
+    content: "​How many roads mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.4642857143%,
+  29.6616984127% {
+    content: "​How many roads m";
+    content: "​How many roads m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.6626984127%,
+  29.8601111111% {
+    content: "​How many roads ";
+    content: "​How many roads "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.8611111111%,
+  30.0585238095% {
+    content: "​How many roads";
+    content: "​How many roads"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.0595238095%,
+  30.2569365079% {
+    content: "​How many road";
+    content: "​How many road"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.2579365079%,
+  30.4553492063% {
+    content: "​How many roa";
+    content: "​How many roa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.4563492063%,
+  30.6537619048% {
+    content: "​How many ro";
+    content: "​How many ro"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.6547619048%,
+  30.8521746032% {
+    content: "​How many r";
+    content: "​How many r"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.8531746032%,
+  31.0505873016% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.0515873016%,
+  31.249% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.25%,
+  31.4474126984% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.4484126984%,
+  31.6458253968% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.6468253968%,
+  31.8442380952% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.8452380952%,
+  32.0426507937% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.0436507937%,
+  32.2410634921% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.2420634921%,
+  32.4394761905% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.4404761905%,
+  32.6378888889% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.6388888889%,
+  35.118047619% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.119047619%,
+  35.3660634921% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.3670634921%,
+  35.6140793651% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.6150793651%,
+  35.8620952381% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.8630952381%,
+  36.1101111111% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.1111111111%,
+  36.3581269841% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.3591269841%,
+  36.6061428571% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.6071428571%,
+  36.8541587302% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.8551587302%,
+  37.1021746032% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.1031746032%,
+  37.3501904762% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.3511904762%,
+  37.5982063492% {
+    content: "​How many s";
+    content: "​How many s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.5992063492%,
+  37.8462222222% {
+    content: "​How many se";
+    content: "​How many se"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.8472222222%,
+  38.0942380952% {
+    content: "​How many sea";
+    content: "​How many sea"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.0952380952%,
+  38.3422539683% {
+    content: "​How many seas";
+    content: "​How many seas"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.3432539683%,
+  38.5902698413% {
+    content: "​How many seas ";
+    content: "​How many seas "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.5912698413%,
+  38.8382857143% {
+    content: "​How many seas m";
+    content: "​How many seas m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.8392857143%,
+  39.0863015873% {
+    content: "​How many seas mu";
+    content: "​How many seas mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.0873015873%,
+  39.3343174603% {
+    content: "​How many seas mus";
+    content: "​How many seas mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.3353174603%,
+  39.5823333333% {
+    content: "​How many seas must";
+    content: "​How many seas must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.5833333333%,
+  39.8303492063% {
+    content: "​How many seas must ";
+    content: "​How many seas must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.8313492063%,
+  40.0783650794% {
+    content: "​How many seas must a";
+    content: "​How many seas must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.0793650794%,
+  40.3263809524% {
+    content: "​How many seas must a ";
+    content: "​How many seas must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.3273809524%,
+  40.5743968254% {
+    content: "​How many seas must a w";
+    content: "​How many seas must a w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.5753968254%,
+  40.8224126984% {
+    content: "​How many seas must a wh";
+    content: "​How many seas must a wh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.8234126984%,
+  41.0704285714% {
+    content: "​How many seas must a whi";
+    content: "​How many seas must a whi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.0714285714%,
+  41.3184444444% {
+    content: "​How many seas must a whit";
+    content: "​How many seas must a whit"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.3194444444%,
+  41.5664603175% {
+    content: "​How many seas must a white";
+    content: "​How many seas must a white"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.5674603175%,
+  41.8144761905% {
+    content: "​How many seas must a white ";
+    content: "​How many seas must a white "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.8154761905%,
+  42.0624920635% {
+    content: "​How many seas must a white d";
+    content: "​How many seas must a white d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.0634920635%,
+  42.3105079365% {
+    content: "​How many seas must a white do";
+    content: "​How many seas must a white do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.3115079365%,
+  42.5585238095% {
+    content: "​How many seas must a white dov";
+    content: "​How many seas must a white dov"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.5595238095%,
+  42.8065396825% {
+    content: "​How many seas must a white dove";
+    content: "​How many seas must a white dove"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.8075396825%,
+  43.0545555556% {
+    content: "​How many seas must a white dove ";
+    content: "​How many seas must a white dove "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.0555555556%,
+  43.3025714286% {
+    content: "​How many seas must a white dove s";
+    content: "​How many seas must a white dove s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.3035714286%,
+  43.5505873016% {
+    content: "​How many seas must a white dove sa";
+    content: "​How many seas must a white dove sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.5515873016%,
+  43.7986031746% {
+    content: "​How many seas must a white dove sai";
+    content: "​How many seas must a white dove sai"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.7996031746%,
+  44.0466190476% {
+    content: "​How many seas must a white dove sail";
+    content: "​How many seas must a white dove sail"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.0476190476%,
+  44.2946349206% {
+    content: "​How many seas must a white dove sail ";
+    content: "​How many seas must a white dove sail "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.2956349206%,
+  44.5426507937% {
+    content: "​How many seas must a white dove sail b";
+    content: "​How many seas must a white dove sail b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.5436507937%,
+  44.7906666667% {
+    content: "​How many seas must a white dove sail be";
+    content: "​How many seas must a white dove sail be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.7916666667%,
+  45.0386825397% {
+    content: "​How many seas must a white dove sail bef";
+    content: "​How many seas must a white dove sail bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.0396825397%,
+  45.2866984127% {
+    content: "​How many seas must a white dove sail befo";
+    content: "​How many seas must a white dove sail befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.2876984127%,
+  45.5347142857% {
+    content: "​How many seas must a white dove sail befor";
+    content: "​How many seas must a white dove sail befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.5357142857%,
+  45.7827301587% {
+    content: "​How many seas must a white dove sail before";
+    content: "​How many seas must a white dove sail before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.7837301587%,
+  46.0307460317% {
+    content: "​How many seas must a white dove sail before ";
+    content: "​How many seas must a white dove sail before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.0317460317%,
+  46.2787619048% {
+    content: "​How many seas must a white dove sail before s";
+    content: "​How many seas must a white dove sail before s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.2797619048%,
+  46.5267777778% {
+    content: "​How many seas must a white dove sail before sh";
+    content: "​How many seas must a white dove sail before sh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.5277777778%,
+  46.7747936508% {
+    content: "​How many seas must a white dove sail before she";
+    content: "​How many seas must a white dove sail before she"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.7757936508%,
+  47.0228095238% {
+    content: "​How many seas must a white dove sail before she ";
+    content: "​How many seas must a white dove sail before she "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.0238095238%,
+  47.2708253968% {
+    content: "​How many seas must a white dove sail before she s";
+    content: "​How many seas must a white dove sail before she s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.2718253968%,
+  47.5188412698% {
+    content: "​How many seas must a white dove sail before she sl";
+    content: "​How many seas must a white dove sail before she sl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.5198412698%,
+  47.7668571429% {
+    content: "​How many seas must a white dove sail before she sle";
+    content: "​How many seas must a white dove sail before she sle"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.7678571429%,
+  48.0148730159% {
+    content: "​How many seas must a white dove sail before she slee";
+    content: "​How many seas must a white dove sail before she slee"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.0158730159%,
+  48.2628888889% {
+    content: "​How many seas must a white dove sail before she sleep";
+    content: "​How many seas must a white dove sail before she sleep"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.2638888889%,
+  48.5109047619% {
+    content: "​How many seas must a white dove sail before she sleeps";
+    content: "​How many seas must a white dove sail before she sleeps"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.5119047619%,
+  48.7589206349% {
+    content: "​How many seas must a white dove sail before she sleeps ";
+    content: "​How many seas must a white dove sail before she sleeps "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.7599206349%,
+  49.0069365079% {
+    content: "​How many seas must a white dove sail before she sleeps i";
+    content: "​How many seas must a white dove sail before she sleeps i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.0079365079%,
+  49.254952381% {
+    content: "​How many seas must a white dove sail before she sleeps in";
+    content: "​How many seas must a white dove sail before she sleeps in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.255952381%,
+  49.502968254% {
+    content: "​How many seas must a white dove sail before she sleeps in ";
+    content: "​How many seas must a white dove sail before she sleeps in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.503968254%,
+  49.750984127% {
+    content: "​How many seas must a white dove sail before she sleeps in t";
+    content: "​How many seas must a white dove sail before she sleeps in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.751984127%,
+  49.999% {
+    content: "​How many seas must a white dove sail before she sleeps in th";
+    content: "​How many seas must a white dove sail before she sleeps in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50%,
+  50.247015873% {
+    content: "​How many seas must a white dove sail before she sleeps in the";
+    content: "​How many seas must a white dove sail before she sleeps in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.248015873%,
+  50.495031746% {
+    content: "​How many seas must a white dove sail before she sleeps in the ";
+    content: "​How many seas must a white dove sail before she sleeps in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.496031746%,
+  50.743047619% {
+    content: "​How many seas must a white dove sail before she sleeps in the s";
+    content: "​How many seas must a white dove sail before she sleeps in the s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.744047619%,
+  50.9910634921% {
+    content: "​How many seas must a white dove sail before she sleeps in the sa";
+    content: "​How many seas must a white dove sail before she sleeps in the sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.9920634921%,
+  51.2390793651% {
+    content: "​How many seas must a white dove sail before she sleeps in the san";
+    content: "​How many seas must a white dove sail before she sleeps in the san"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  51.2400793651%,
+  51.4870952381% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand";
+    content: "​How many seas must a white dove sail before she sleeps in the sand"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  51.4880952381%,
+  56.8938412698% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand?";
+    content: "​How many seas must a white dove sail before she sleeps in the sand?"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  56.8948412698%,
+  57.0922539683% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand";
+    content: "​How many seas must a white dove sail before she sleeps in the sand"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.0932539683%,
+  57.2906666667% {
+    content: "​How many seas must a white dove sail before she sleeps in the san";
+    content: "​How many seas must a white dove sail before she sleeps in the san"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.2916666667%,
+  57.4890793651% {
+    content: "​How many seas must a white dove sail before she sleeps in the sa";
+    content: "​How many seas must a white dove sail before she sleeps in the sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.4900793651%,
+  57.6874920635% {
+    content: "​How many seas must a white dove sail before she sleeps in the s";
+    content: "​How many seas must a white dove sail before she sleeps in the s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.6884920635%,
+  57.8859047619% {
+    content: "​How many seas must a white dove sail before she sleeps in the ";
+    content: "​How many seas must a white dove sail before she sleeps in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.8869047619%,
+  58.0843174603% {
+    content: "​How many seas must a white dove sail before she sleeps in the";
+    content: "​How many seas must a white dove sail before she sleeps in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.0853174603%,
+  58.2827301587% {
+    content: "​How many seas must a white dove sail before she sleeps in th";
+    content: "​How many seas must a white dove sail before she sleeps in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.2837301587%,
+  58.4811428571% {
+    content: "​How many seas must a white dove sail before she sleeps in t";
+    content: "​How many seas must a white dove sail before she sleeps in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.4821428571%,
+  58.6795555556% {
+    content: "​How many seas must a white dove sail before she sleeps in ";
+    content: "​How many seas must a white dove sail before she sleeps in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.6805555556%,
+  58.877968254% {
+    content: "​How many seas must a white dove sail before she sleeps in";
+    content: "​How many seas must a white dove sail before she sleeps in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.878968254%,
+  59.0763809524% {
+    content: "​How many seas must a white dove sail before she sleeps i";
+    content: "​How many seas must a white dove sail before she sleeps i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.0773809524%,
+  59.2747936508% {
+    content: "​How many seas must a white dove sail before she sleeps ";
+    content: "​How many seas must a white dove sail before she sleeps "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.2757936508%,
+  59.4732063492% {
+    content: "​How many seas must a white dove sail before she sleeps";
+    content: "​How many seas must a white dove sail before she sleeps"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.4742063492%,
+  59.6716190476% {
+    content: "​How many seas must a white dove sail before she sleep";
+    content: "​How many seas must a white dove sail before she sleep"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.6726190476%,
+  59.870031746% {
+    content: "​How many seas must a white dove sail before she slee";
+    content: "​How many seas must a white dove sail before she slee"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.871031746%,
+  60.0684444444% {
+    content: "​How many seas must a white dove sail before she sle";
+    content: "​How many seas must a white dove sail before she sle"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.0694444444%,
+  60.2668571429% {
+    content: "​How many seas must a white dove sail before she sl";
+    content: "​How many seas must a white dove sail before she sl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.2678571429%,
+  60.4652698413% {
+    content: "​How many seas must a white dove sail before she s";
+    content: "​How many seas must a white dove sail before she s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.4662698413%,
+  60.6636825397% {
+    content: "​How many seas must a white dove sail before she ";
+    content: "​How many seas must a white dove sail before she "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.6646825397%,
+  60.8620952381% {
+    content: "​How many seas must a white dove sail before she";
+    content: "​How many seas must a white dove sail before she"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.8630952381%,
+  61.0605079365% {
+    content: "​How many seas must a white dove sail before sh";
+    content: "​How many seas must a white dove sail before sh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.0615079365%,
+  61.2589206349% {
+    content: "​How many seas must a white dove sail before s";
+    content: "​How many seas must a white dove sail before s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.2599206349%,
+  61.4573333333% {
+    content: "​How many seas must a white dove sail before ";
+    content: "​How many seas must a white dove sail before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.4583333333%,
+  61.6557460317% {
+    content: "​How many seas must a white dove sail before";
+    content: "​How many seas must a white dove sail before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.6567460317%,
+  61.8541587302% {
+    content: "​How many seas must a white dove sail befor";
+    content: "​How many seas must a white dove sail befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.8551587302%,
+  62.0525714286% {
+    content: "​How many seas must a white dove sail befo";
+    content: "​How many seas must a white dove sail befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.0535714286%,
+  62.250984127% {
+    content: "​How many seas must a white dove sail bef";
+    content: "​How many seas must a white dove sail bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.251984127%,
+  62.4493968254% {
+    content: "​How many seas must a white dove sail be";
+    content: "​How many seas must a white dove sail be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.4503968254%,
+  62.6478095238% {
+    content: "​How many seas must a white dove sail b";
+    content: "​How many seas must a white dove sail b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.6488095238%,
+  62.8462222222% {
+    content: "​How many seas must a white dove sail ";
+    content: "​How many seas must a white dove sail "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.8472222222%,
+  63.0446349206% {
+    content: "​How many seas must a white dove sail";
+    content: "​How many seas must a white dove sail"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.0456349206%,
+  63.243047619% {
+    content: "​How many seas must a white dove sai";
+    content: "​How many seas must a white dove sai"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.244047619%,
+  63.4414603175% {
+    content: "​How many seas must a white dove sa";
+    content: "​How many seas must a white dove sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.4424603175%,
+  63.6398730159% {
+    content: "​How many seas must a white dove s";
+    content: "​How many seas must a white dove s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.6408730159%,
+  63.8382857143% {
+    content: "​How many seas must a white dove ";
+    content: "​How many seas must a white dove "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.8392857143%,
+  64.0366984127% {
+    content: "​How many seas must a white dove";
+    content: "​How many seas must a white dove"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.0376984127%,
+  64.2351111111% {
+    content: "​How many seas must a white dov";
+    content: "​How many seas must a white dov"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.2361111111%,
+  64.4335238095% {
+    content: "​How many seas must a white do";
+    content: "​How many seas must a white do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.4345238095%,
+  64.6319365079% {
+    content: "​How many seas must a white d";
+    content: "​How many seas must a white d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.6329365079%,
+  64.8303492063% {
+    content: "​How many seas must a white ";
+    content: "​How many seas must a white "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.8313492063%,
+  65.0287619048% {
+    content: "​How many seas must a white";
+    content: "​How many seas must a white"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.0297619048%,
+  65.2271746032% {
+    content: "​How many seas must a whit";
+    content: "​How many seas must a whit"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.2281746032%,
+  65.4255873016% {
+    content: "​How many seas must a whi";
+    content: "​How many seas must a whi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.4265873016%,
+  65.624% {
+    content: "​How many seas must a wh";
+    content: "​How many seas must a wh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.625%,
+  65.8224126984% {
+    content: "​How many seas must a w";
+    content: "​How many seas must a w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.8234126984%,
+  66.0208253968% {
+    content: "​How many seas must a ";
+    content: "​How many seas must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.0218253968%,
+  66.2192380952% {
+    content: "​How many seas must a";
+    content: "​How many seas must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.2202380952%,
+  66.4176507937% {
+    content: "​How many seas must ";
+    content: "​How many seas must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.4186507937%,
+  66.6160634921% {
+    content: "​How many seas must";
+    content: "​How many seas must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.6170634921%,
+  66.8144761905% {
+    content: "​How many seas mus";
+    content: "​How many seas mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.8154761905%,
+  67.0128888889% {
+    content: "​How many seas mu";
+    content: "​How many seas mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.0138888889%,
+  67.2113015873% {
+    content: "​How many seas m";
+    content: "​How many seas m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.2123015873%,
+  67.4097142857% {
+    content: "​How many seas ";
+    content: "​How many seas "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.4107142857%,
+  67.6081269841% {
+    content: "​How many seas";
+    content: "​How many seas"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.6091269841%,
+  67.8065396825% {
+    content: "​How many sea";
+    content: "​How many sea"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.8075396825%,
+  68.004952381% {
+    content: "​How many se";
+    content: "​How many se"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.005952381%,
+  68.2033650794% {
+    content: "​How many s";
+    content: "​How many s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.2043650794%,
+  68.4017777778% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.4027777778%,
+  68.6001904762% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.6011904762%,
+  68.7986031746% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.7996031746%,
+  68.997015873% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.998015873%,
+  69.1954285714% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.1964285714%,
+  69.3938412698% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.3948412698%,
+  69.5922539683% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.5932539683%,
+  69.7906666667% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.7916666667%,
+  69.9890793651% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.9900793651%,
+  72.4692380952% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.4702380952%,
+  72.7172539683% {
+    content: "​T";
+    content: "​T"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.7182539683%,
+  72.9652698413% {
+    content: "​Th";
+    content: "​Th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.9662698413%,
+  73.2132857143% {
+    content: "​The";
+    content: "​The"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.2142857143%,
+  73.4613015873% {
+    content: "​The ";
+    content: "​The "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.4623015873%,
+  73.7093174603% {
+    content: "​The a";
+    content: "​The a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.7103174603%,
+  73.9573333333% {
+    content: "​The an";
+    content: "​The an"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.9583333333%,
+  74.2053492063% {
+    content: "​The ans";
+    content: "​The ans"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.2063492063%,
+  74.4533650794% {
+    content: "​The answ";
+    content: "​The answ"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.4543650794%,
+  74.7013809524% {
+    content: "​The answe";
+    content: "​The answe"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.7023809524%,
+  74.9493968254% {
+    content: "​The answer";
+    content: "​The answer"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.9503968254%,
+  75.1974126984% {
+    content: "​The answer,";
+    content: "​The answer,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.1984126984%,
+  75.4454285714% {
+    content: "​The answer, ";
+    content: "​The answer, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.4464285714%,
+  75.6934444444% {
+    content: "​The answer, m";
+    content: "​The answer, m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.6944444444%,
+  75.9414603175% {
+    content: "​The answer, my";
+    content: "​The answer, my"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.9424603175%,
+  76.1894761905% {
+    content: "​The answer, my ";
+    content: "​The answer, my "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.1904761905%,
+  76.4374920635% {
+    content: "​The answer, my f";
+    content: "​The answer, my f"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.4384920635%,
+  76.6855079365% {
+    content: "​The answer, my fr";
+    content: "​The answer, my fr"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.6865079365%,
+  76.9335238095% {
+    content: "​The answer, my fri";
+    content: "​The answer, my fri"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.9345238095%,
+  77.1815396825% {
+    content: "​The answer, my frie";
+    content: "​The answer, my frie"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.1825396825%,
+  77.4295555556% {
+    content: "​The answer, my frien";
+    content: "​The answer, my frien"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.4305555556%,
+  77.6775714286% {
+    content: "​The answer, my friend";
+    content: "​The answer, my friend"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.6785714286%,
+  77.9255873016% {
+    content: "​The answer, my friend,";
+    content: "​The answer, my friend,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.9265873016%,
+  78.1736031746% {
+    content: "​The answer, my friend, ";
+    content: "​The answer, my friend, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.1746031746%,
+  78.4216190476% {
+    content: "​The answer, my friend, i";
+    content: "​The answer, my friend, i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.4226190476%,
+  78.6696349206% {
+    content: "​The answer, my friend, is";
+    content: "​The answer, my friend, is"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.6706349206%,
+  78.9176507937% {
+    content: "​The answer, my friend, is ";
+    content: "​The answer, my friend, is "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.9186507937%,
+  79.1656666667% {
+    content: "​The answer, my friend, is b";
+    content: "​The answer, my friend, is b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.1666666667%,
+  79.4136825397% {
+    content: "​The answer, my friend, is bl";
+    content: "​The answer, my friend, is bl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.4146825397%,
+  79.6616984127% {
+    content: "​The answer, my friend, is blo";
+    content: "​The answer, my friend, is blo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.6626984127%,
+  79.9097142857% {
+    content: "​The answer, my friend, is blow";
+    content: "​The answer, my friend, is blow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.9107142857%,
+  80.1577301587% {
+    content: "​The answer, my friend, is blowi";
+    content: "​The answer, my friend, is blowi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.1587301587%,
+  80.4057460317% {
+    content: "​The answer, my friend, is blowin";
+    content: "​The answer, my friend, is blowin"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.4067460317%,
+  80.6537619048% {
+    content: "​The answer, my friend, is blowin'";
+    content: "​The answer, my friend, is blowin'"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.6547619048%,
+  80.9017777778% {
+    content: "​The answer, my friend, is blowin' ";
+    content: "​The answer, my friend, is blowin' "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.9027777778%,
+  81.1497936508% {
+    content: "​The answer, my friend, is blowin' i";
+    content: "​The answer, my friend, is blowin' i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.1507936508%,
+  81.3978095238% {
+    content: "​The answer, my friend, is blowin' in";
+    content: "​The answer, my friend, is blowin' in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.3988095238%,
+  81.6458253968% {
+    content: "​The answer, my friend, is blowin' in ";
+    content: "​The answer, my friend, is blowin' in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.6468253968%,
+  81.8938412698% {
+    content: "​The answer, my friend, is blowin' in t";
+    content: "​The answer, my friend, is blowin' in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.8948412698%,
+  82.1418571429% {
+    content: "​The answer, my friend, is blowin' in th";
+    content: "​The answer, my friend, is blowin' in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.1428571429%,
+  82.3898730159% {
+    content: "​The answer, my friend, is blowin' in the";
+    content: "​The answer, my friend, is blowin' in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.3908730159%,
+  82.6378888889% {
+    content: "​The answer, my friend, is blowin' in the ";
+    content: "​The answer, my friend, is blowin' in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.6388888889%,
+  82.8859047619% {
+    content: "​The answer, my friend, is blowin' in the w";
+    content: "​The answer, my friend, is blowin' in the w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.8869047619%,
+  83.1339206349% {
+    content: "​The answer, my friend, is blowin' in the wi";
+    content: "​The answer, my friend, is blowin' in the wi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  83.1349206349%,
+  83.3819365079% {
+    content: "​The answer, my friend, is blowin' in the win";
+    content: "​The answer, my friend, is blowin' in the win"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  83.3829365079%,
+  88.7886825397% {
+    content: "​The answer, my friend, is blowin' in the wind";
+    content: "​The answer, my friend, is blowin' in the wind"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  88.7896825397%,
+  88.9870952381% {
+    content: "​The answer, my friend, is blowin' in the win";
+    content: "​The answer, my friend, is blowin' in the win"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  88.9880952381%,
+  89.1855079365% {
+    content: "​The answer, my friend, is blowin' in the wi";
+    content: "​The answer, my friend, is blowin' in the wi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.1865079365%,
+  89.3839206349% {
+    content: "​The answer, my friend, is blowin' in the w";
+    content: "​The answer, my friend, is blowin' in the w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.3849206349%,
+  89.5823333333% {
+    content: "​The answer, my friend, is blowin' in the ";
+    content: "​The answer, my friend, is blowin' in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.5833333333%,
+  89.7807460317% {
+    content: "​The answer, my friend, is blowin' in the";
+    content: "​The answer, my friend, is blowin' in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.7817460317%,
+  89.9791587302% {
+    content: "​The answer, my friend, is blowin' in th";
+    content: "​The answer, my friend, is blowin' in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.9801587302%,
+  90.1775714286% {
+    content: "​The answer, my friend, is blowin' in t";
+    content: "​The answer, my friend, is blowin' in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.1785714286%,
+  90.375984127% {
+    content: "​The answer, my friend, is blowin' in ";
+    content: "​The answer, my friend, is blowin' in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.376984127%,
+  90.5743968254% {
+    content: "​The answer, my friend, is blowin' in";
+    content: "​The answer, my friend, is blowin' in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.5753968254%,
+  90.7728095238% {
+    content: "​The answer, my friend, is blowin' i";
+    content: "​The answer, my friend, is blowin' i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.7738095238%,
+  90.9712222222% {
+    content: "​The answer, my friend, is blowin' ";
+    content: "​The answer, my friend, is blowin' "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.9722222222%,
+  91.1696349206% {
+    content: "​The answer, my friend, is blowin'";
+    content: "​The answer, my friend, is blowin'"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.1706349206%,
+  91.368047619% {
+    content: "​The answer, my friend, is blowin";
+    content: "​The answer, my friend, is blowin"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.369047619%,
+  91.5664603175% {
+    content: "​The answer, my friend, is blowi";
+    content: "​The answer, my friend, is blowi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.5674603175%,
+  91.7648730159% {
+    content: "​The answer, my friend, is blow";
+    content: "​The answer, my friend, is blow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.7658730159%,
+  91.9632857143% {
+    content: "​The answer, my friend, is blo";
+    content: "​The answer, my friend, is blo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.9642857143%,
+  92.1616984127% {
+    content: "​The answer, my friend, is bl";
+    content: "​The answer, my friend, is bl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.1626984127%,
+  92.3601111111% {
+    content: "​The answer, my friend, is b";
+    content: "​The answer, my friend, is b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.3611111111%,
+  92.5585238095% {
+    content: "​The answer, my friend, is ";
+    content: "​The answer, my friend, is "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.5595238095%,
+  92.7569365079% {
+    content: "​The answer, my friend, is";
+    content: "​The answer, my friend, is"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.7579365079%,
+  92.9553492063% {
+    content: "​The answer, my friend, i";
+    content: "​The answer, my friend, i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.9563492063%,
+  93.1537619048% {
+    content: "​The answer, my friend, ";
+    content: "​The answer, my friend, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.1547619048%,
+  93.3521746032% {
+    content: "​The answer, my friend,";
+    content: "​The answer, my friend,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.3531746032%,
+  93.5505873016% {
+    content: "​The answer, my friend";
+    content: "​The answer, my friend"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.5515873016%,
+  93.749% {
+    content: "​The answer, my frien";
+    content: "​The answer, my frien"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.75%,
+  93.9474126984% {
+    content: "​The answer, my frie";
+    content: "​The answer, my frie"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.9484126984%,
+  94.1458253968% {
+    content: "​The answer, my fri";
+    content: "​The answer, my fri"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.1468253968%,
+  94.3442380952% {
+    content: "​The answer, my fr";
+    content: "​The answer, my fr"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.3452380952%,
+  94.5426507937% {
+    content: "​The answer, my f";
+    content: "​The answer, my f"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.5436507937%,
+  94.7410634921% {
+    content: "​The answer, my ";
+    content: "​The answer, my "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.7420634921%,
+  94.9394761905% {
+    content: "​The answer, my";
+    content: "​The answer, my"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.9404761905%,
+  95.1378888889% {
+    content: "​The answer, m";
+    content: "​The answer, m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.1388888889%,
+  95.3363015873% {
+    content: "​The answer, ";
+    content: "​The answer, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.3373015873%,
+  95.5347142857% {
+    content: "​The answer,";
+    content: "​The answer,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.5357142857%,
+  95.7331269841% {
+    content: "​The answer";
+    content: "​The answer"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.7341269841%,
+  95.9315396825% {
+    content: "​The answe";
+    content: "​The answe"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.9325396825%,
+  96.129952381% {
+    content: "​The answ";
+    content: "​The answ"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.130952381%,
+  96.3283650794% {
+    content: "​The ans";
+    content: "​The ans"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.3293650794%,
+  96.5267777778% {
+    content: "​The an";
+    content: "​The an"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.5277777778%,
+  96.7251904762% {
+    content: "​The a";
+    content: "​The a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.7261904762%,
+  96.9236031746% {
+    content: "​The ";
+    content: "​The "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.9246031746%,
+  97.122015873% {
+    content: "​The";
+    content: "​The"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.123015873%,
+  97.3204285714% {
+    content: "​Th";
+    content: "​Th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.3214285714%,
+  97.5188412698% {
+    content: "​T";
+    content: "​T"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.5198412698%,
+  100% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+}
+@keyframes typed-0 {
+  0%,
+  0.247015873% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.248015873%,
+  0.495031746% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.496031746%,
+  0.743047619% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.744047619%,
+  0.9910634921% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  0.9920634921%,
+  1.2390793651% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.2400793651%,
+  1.4870952381% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.4880952381%,
+  1.7351111111% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.7361111111%,
+  1.9831269841% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  1.9841269841%,
+  2.2311428571% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.2321428571%,
+  2.4791587302% {
+    content: "​How many r";
+    content: "​How many r"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.4801587302%,
+  2.7271746032% {
+    content: "​How many ro";
+    content: "​How many ro"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.7281746032%,
+  2.9751904762% {
+    content: "​How many roa";
+    content: "​How many roa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  2.9761904762%,
+  3.2232063492% {
+    content: "​How many road";
+    content: "​How many road"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.2242063492%,
+  3.4712222222% {
+    content: "​How many roads";
+    content: "​How many roads"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.4722222222%,
+  3.7192380952% {
+    content: "​How many roads ";
+    content: "​How many roads "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.7202380952%,
+  3.9672539683% {
+    content: "​How many roads m";
+    content: "​How many roads m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  3.9682539683%,
+  4.2152698413% {
+    content: "​How many roads mu";
+    content: "​How many roads mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.2162698413%,
+  4.4632857143% {
+    content: "​How many roads mus";
+    content: "​How many roads mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.4642857143%,
+  4.7113015873% {
+    content: "​How many roads must";
+    content: "​How many roads must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.7123015873%,
+  4.9593174603% {
+    content: "​How many roads must ";
+    content: "​How many roads must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  4.9603174603%,
+  5.2073333333% {
+    content: "​How many roads must a";
+    content: "​How many roads must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.2083333333%,
+  5.4553492063% {
+    content: "​How many roads must a ";
+    content: "​How many roads must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.4563492063%,
+  5.7033650794% {
+    content: "​How many roads must a m";
+    content: "​How many roads must a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.7043650794%,
+  5.9513809524% {
+    content: "​How many roads must a ma";
+    content: "​How many roads must a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  5.9523809524%,
+  6.1993968254% {
+    content: "​How many roads must a man";
+    content: "​How many roads must a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.2003968254%,
+  6.4474126984% {
+    content: "​How many roads must a man ";
+    content: "​How many roads must a man "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.4484126984%,
+  6.6954285714% {
+    content: "​How many roads must a man w";
+    content: "​How many roads must a man w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.6964285714%,
+  6.9434444444% {
+    content: "​How many roads must a man wa";
+    content: "​How many roads must a man wa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  6.9444444444%,
+  7.1914603175% {
+    content: "​How many roads must a man wal";
+    content: "​How many roads must a man wal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.1924603175%,
+  7.4394761905% {
+    content: "​How many roads must a man walk";
+    content: "​How many roads must a man walk"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.4404761905%,
+  7.6874920635% {
+    content: "​How many roads must a man walk ";
+    content: "​How many roads must a man walk "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.6884920635%,
+  7.9355079365% {
+    content: "​How many roads must a man walk d";
+    content: "​How many roads must a man walk d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  7.9365079365%,
+  8.1835238095% {
+    content: "​How many roads must a man walk do";
+    content: "​How many roads must a man walk do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.1845238095%,
+  8.4315396825% {
+    content: "​How many roads must a man walk dow";
+    content: "​How many roads must a man walk dow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.4325396825%,
+  8.6795555556% {
+    content: "​How many roads must a man walk down";
+    content: "​How many roads must a man walk down"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.6805555556%,
+  8.9275714286% {
+    content: "​How many roads must a man walk down ";
+    content: "​How many roads must a man walk down "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  8.9285714286%,
+  9.1755873016% {
+    content: "​How many roads must a man walk down b";
+    content: "​How many roads must a man walk down b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.1765873016%,
+  9.4236031746% {
+    content: "​How many roads must a man walk down be";
+    content: "​How many roads must a man walk down be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.4246031746%,
+  9.6716190476% {
+    content: "​How many roads must a man walk down bef";
+    content: "​How many roads must a man walk down bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.6726190476%,
+  9.9196349206% {
+    content: "​How many roads must a man walk down befo";
+    content: "​How many roads must a man walk down befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  9.9206349206%,
+  10.1676507937% {
+    content: "​How many roads must a man walk down befor";
+    content: "​How many roads must a man walk down befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.1686507937%,
+  10.4156666667% {
+    content: "​How many roads must a man walk down before";
+    content: "​How many roads must a man walk down before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.4166666667%,
+  10.6636825397% {
+    content: "​How many roads must a man walk down before ";
+    content: "​How many roads must a man walk down before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.6646825397%,
+  10.9116984127% {
+    content: "​How many roads must a man walk down before y";
+    content: "​How many roads must a man walk down before y"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  10.9126984127%,
+  11.1597142857% {
+    content: "​How many roads must a man walk down before yo";
+    content: "​How many roads must a man walk down before yo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.1607142857%,
+  11.4077301587% {
+    content: "​How many roads must a man walk down before you";
+    content: "​How many roads must a man walk down before you"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.4087301587%,
+  11.6557460317% {
+    content: "​How many roads must a man walk down before you ";
+    content: "​How many roads must a man walk down before you "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.6567460317%,
+  11.9037619048% {
+    content: "​How many roads must a man walk down before you c";
+    content: "​How many roads must a man walk down before you c"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  11.9047619048%,
+  12.1517777778% {
+    content: "​How many roads must a man walk down before you ca";
+    content: "​How many roads must a man walk down before you ca"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.1527777778%,
+  12.3997936508% {
+    content: "​How many roads must a man walk down before you cal";
+    content: "​How many roads must a man walk down before you cal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.4007936508%,
+  12.6478095238% {
+    content: "​How many roads must a man walk down before you call";
+    content: "​How many roads must a man walk down before you call"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.6488095238%,
+  12.8958253968% {
+    content: "​How many roads must a man walk down before you call ";
+    content: "​How many roads must a man walk down before you call "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  12.8968253968%,
+  13.1438412698% {
+    content: "​How many roads must a man walk down before you call h";
+    content: "​How many roads must a man walk down before you call h"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.1448412698%,
+  13.3918571429% {
+    content: "​How many roads must a man walk down before you call hi";
+    content: "​How many roads must a man walk down before you call hi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.3928571429%,
+  13.6398730159% {
+    content: "​How many roads must a man walk down before you call him";
+    content: "​How many roads must a man walk down before you call him"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.6408730159%,
+  13.8878888889% {
+    content: "​How many roads must a man walk down before you call him ";
+    content: "​How many roads must a man walk down before you call him "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  13.8888888889%,
+  14.1359047619% {
+    content: "​How many roads must a man walk down before you call him a";
+    content: "​How many roads must a man walk down before you call him a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.1369047619%,
+  14.3839206349% {
+    content: "​How many roads must a man walk down before you call him a ";
+    content: "​How many roads must a man walk down before you call him a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.3849206349%,
+  14.6319365079% {
+    content: "​How many roads must a man walk down before you call him a m";
+    content: "​How many roads must a man walk down before you call him a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.6329365079%,
+  14.879952381% {
+    content: "​How many roads must a man walk down before you call him a ma";
+    content: "​How many roads must a man walk down before you call him a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  14.880952381%,
+  15.127968254% {
+    content: "​How many roads must a man walk down before you call him a man";
+    content: "​How many roads must a man walk down before you call him a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  15.128968254%,
+  20.5347142857% {
+    content: "​How many roads must a man walk down before you call him a man?";
+    content: "​How many roads must a man walk down before you call him a man?"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.5357142857%,
+  20.7331269841% {
+    content: "​How many roads must a man walk down before you call him a man";
+    content: "​How many roads must a man walk down before you call him a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.7341269841%,
+  20.9315396825% {
+    content: "​How many roads must a man walk down before you call him a ma";
+    content: "​How many roads must a man walk down before you call him a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  20.9325396825%,
+  21.129952381% {
+    content: "​How many roads must a man walk down before you call him a m";
+    content: "​How many roads must a man walk down before you call him a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.130952381%,
+  21.3283650794% {
+    content: "​How many roads must a man walk down before you call him a ";
+    content: "​How many roads must a man walk down before you call him a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.3293650794%,
+  21.5267777778% {
+    content: "​How many roads must a man walk down before you call him a";
+    content: "​How many roads must a man walk down before you call him a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.5277777778%,
+  21.7251904762% {
+    content: "​How many roads must a man walk down before you call him ";
+    content: "​How many roads must a man walk down before you call him "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.7261904762%,
+  21.9236031746% {
+    content: "​How many roads must a man walk down before you call him";
+    content: "​How many roads must a man walk down before you call him"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  21.9246031746%,
+  22.122015873% {
+    content: "​How many roads must a man walk down before you call hi";
+    content: "​How many roads must a man walk down before you call hi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.123015873%,
+  22.3204285714% {
+    content: "​How many roads must a man walk down before you call h";
+    content: "​How many roads must a man walk down before you call h"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.3214285714%,
+  22.5188412698% {
+    content: "​How many roads must a man walk down before you call ";
+    content: "​How many roads must a man walk down before you call "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.5198412698%,
+  22.7172539683% {
+    content: "​How many roads must a man walk down before you call";
+    content: "​How many roads must a man walk down before you call"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.7182539683%,
+  22.9156666667% {
+    content: "​How many roads must a man walk down before you cal";
+    content: "​How many roads must a man walk down before you cal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  22.9166666667%,
+  23.1140793651% {
+    content: "​How many roads must a man walk down before you ca";
+    content: "​How many roads must a man walk down before you ca"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.1150793651%,
+  23.3124920635% {
+    content: "​How many roads must a man walk down before you c";
+    content: "​How many roads must a man walk down before you c"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.3134920635%,
+  23.5109047619% {
+    content: "​How many roads must a man walk down before you ";
+    content: "​How many roads must a man walk down before you "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.5119047619%,
+  23.7093174603% {
+    content: "​How many roads must a man walk down before you";
+    content: "​How many roads must a man walk down before you"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.7103174603%,
+  23.9077301587% {
+    content: "​How many roads must a man walk down before yo";
+    content: "​How many roads must a man walk down before yo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  23.9087301587%,
+  24.1061428571% {
+    content: "​How many roads must a man walk down before y";
+    content: "​How many roads must a man walk down before y"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.1071428571%,
+  24.3045555556% {
+    content: "​How many roads must a man walk down before ";
+    content: "​How many roads must a man walk down before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.3055555556%,
+  24.502968254% {
+    content: "​How many roads must a man walk down before";
+    content: "​How many roads must a man walk down before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.503968254%,
+  24.7013809524% {
+    content: "​How many roads must a man walk down befor";
+    content: "​How many roads must a man walk down befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.7023809524%,
+  24.8997936508% {
+    content: "​How many roads must a man walk down befo";
+    content: "​How many roads must a man walk down befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  24.9007936508%,
+  25.0982063492% {
+    content: "​How many roads must a man walk down bef";
+    content: "​How many roads must a man walk down bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.0992063492%,
+  25.2966190476% {
+    content: "​How many roads must a man walk down be";
+    content: "​How many roads must a man walk down be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.2976190476%,
+  25.495031746% {
+    content: "​How many roads must a man walk down b";
+    content: "​How many roads must a man walk down b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.496031746%,
+  25.6934444444% {
+    content: "​How many roads must a man walk down ";
+    content: "​How many roads must a man walk down "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.6944444444%,
+  25.8918571429% {
+    content: "​How many roads must a man walk down";
+    content: "​How many roads must a man walk down"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  25.8928571429%,
+  26.0902698413% {
+    content: "​How many roads must a man walk dow";
+    content: "​How many roads must a man walk dow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.0912698413%,
+  26.2886825397% {
+    content: "​How many roads must a man walk do";
+    content: "​How many roads must a man walk do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.2896825397%,
+  26.4870952381% {
+    content: "​How many roads must a man walk d";
+    content: "​How many roads must a man walk d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.4880952381%,
+  26.6855079365% {
+    content: "​How many roads must a man walk ";
+    content: "​How many roads must a man walk "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.6865079365%,
+  26.8839206349% {
+    content: "​How many roads must a man walk";
+    content: "​How many roads must a man walk"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  26.8849206349%,
+  27.0823333333% {
+    content: "​How many roads must a man wal";
+    content: "​How many roads must a man wal"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.0833333333%,
+  27.2807460317% {
+    content: "​How many roads must a man wa";
+    content: "​How many roads must a man wa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.2817460317%,
+  27.4791587302% {
+    content: "​How many roads must a man w";
+    content: "​How many roads must a man w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.4801587302%,
+  27.6775714286% {
+    content: "​How many roads must a man ";
+    content: "​How many roads must a man "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.6785714286%,
+  27.875984127% {
+    content: "​How many roads must a man";
+    content: "​How many roads must a man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  27.876984127%,
+  28.0743968254% {
+    content: "​How many roads must a ma";
+    content: "​How many roads must a ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.0753968254%,
+  28.2728095238% {
+    content: "​How many roads must a m";
+    content: "​How many roads must a m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.2738095238%,
+  28.4712222222% {
+    content: "​How many roads must a ";
+    content: "​How many roads must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.4722222222%,
+  28.6696349206% {
+    content: "​How many roads must a";
+    content: "​How many roads must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.6706349206%,
+  28.868047619% {
+    content: "​How many roads must ";
+    content: "​How many roads must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  28.869047619%,
+  29.0664603175% {
+    content: "​How many roads must";
+    content: "​How many roads must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.0674603175%,
+  29.2648730159% {
+    content: "​How many roads mus";
+    content: "​How many roads mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.2658730159%,
+  29.4632857143% {
+    content: "​How many roads mu";
+    content: "​How many roads mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.4642857143%,
+  29.6616984127% {
+    content: "​How many roads m";
+    content: "​How many roads m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.6626984127%,
+  29.8601111111% {
+    content: "​How many roads ";
+    content: "​How many roads "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  29.8611111111%,
+  30.0585238095% {
+    content: "​How many roads";
+    content: "​How many roads"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.0595238095%,
+  30.2569365079% {
+    content: "​How many road";
+    content: "​How many road"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.2579365079%,
+  30.4553492063% {
+    content: "​How many roa";
+    content: "​How many roa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.4563492063%,
+  30.6537619048% {
+    content: "​How many ro";
+    content: "​How many ro"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.6547619048%,
+  30.8521746032% {
+    content: "​How many r";
+    content: "​How many r"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  30.8531746032%,
+  31.0505873016% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.0515873016%,
+  31.249% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.25%,
+  31.4474126984% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.4484126984%,
+  31.6458253968% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.6468253968%,
+  31.8442380952% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  31.8452380952%,
+  32.0426507937% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.0436507937%,
+  32.2410634921% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.2420634921%,
+  32.4394761905% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.4404761905%,
+  32.6378888889% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  32.6388888889%,
+  35.118047619% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.119047619%,
+  35.3660634921% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.3670634921%,
+  35.6140793651% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.6150793651%,
+  35.8620952381% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  35.8630952381%,
+  36.1101111111% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.1111111111%,
+  36.3581269841% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.3591269841%,
+  36.6061428571% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.6071428571%,
+  36.8541587302% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  36.8551587302%,
+  37.1021746032% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.1031746032%,
+  37.3501904762% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.3511904762%,
+  37.5982063492% {
+    content: "​How many s";
+    content: "​How many s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.5992063492%,
+  37.8462222222% {
+    content: "​How many se";
+    content: "​How many se"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  37.8472222222%,
+  38.0942380952% {
+    content: "​How many sea";
+    content: "​How many sea"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.0952380952%,
+  38.3422539683% {
+    content: "​How many seas";
+    content: "​How many seas"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.3432539683%,
+  38.5902698413% {
+    content: "​How many seas ";
+    content: "​How many seas "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.5912698413%,
+  38.8382857143% {
+    content: "​How many seas m";
+    content: "​How many seas m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  38.8392857143%,
+  39.0863015873% {
+    content: "​How many seas mu";
+    content: "​How many seas mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.0873015873%,
+  39.3343174603% {
+    content: "​How many seas mus";
+    content: "​How many seas mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.3353174603%,
+  39.5823333333% {
+    content: "​How many seas must";
+    content: "​How many seas must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.5833333333%,
+  39.8303492063% {
+    content: "​How many seas must ";
+    content: "​How many seas must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  39.8313492063%,
+  40.0783650794% {
+    content: "​How many seas must a";
+    content: "​How many seas must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.0793650794%,
+  40.3263809524% {
+    content: "​How many seas must a ";
+    content: "​How many seas must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.3273809524%,
+  40.5743968254% {
+    content: "​How many seas must a w";
+    content: "​How many seas must a w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.5753968254%,
+  40.8224126984% {
+    content: "​How many seas must a wh";
+    content: "​How many seas must a wh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  40.8234126984%,
+  41.0704285714% {
+    content: "​How many seas must a whi";
+    content: "​How many seas must a whi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.0714285714%,
+  41.3184444444% {
+    content: "​How many seas must a whit";
+    content: "​How many seas must a whit"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.3194444444%,
+  41.5664603175% {
+    content: "​How many seas must a white";
+    content: "​How many seas must a white"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.5674603175%,
+  41.8144761905% {
+    content: "​How many seas must a white ";
+    content: "​How many seas must a white "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  41.8154761905%,
+  42.0624920635% {
+    content: "​How many seas must a white d";
+    content: "​How many seas must a white d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.0634920635%,
+  42.3105079365% {
+    content: "​How many seas must a white do";
+    content: "​How many seas must a white do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.3115079365%,
+  42.5585238095% {
+    content: "​How many seas must a white dov";
+    content: "​How many seas must a white dov"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.5595238095%,
+  42.8065396825% {
+    content: "​How many seas must a white dove";
+    content: "​How many seas must a white dove"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  42.8075396825%,
+  43.0545555556% {
+    content: "​How many seas must a white dove ";
+    content: "​How many seas must a white dove "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.0555555556%,
+  43.3025714286% {
+    content: "​How many seas must a white dove s";
+    content: "​How many seas must a white dove s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.3035714286%,
+  43.5505873016% {
+    content: "​How many seas must a white dove sa";
+    content: "​How many seas must a white dove sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.5515873016%,
+  43.7986031746% {
+    content: "​How many seas must a white dove sai";
+    content: "​How many seas must a white dove sai"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  43.7996031746%,
+  44.0466190476% {
+    content: "​How many seas must a white dove sail";
+    content: "​How many seas must a white dove sail"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.0476190476%,
+  44.2946349206% {
+    content: "​How many seas must a white dove sail ";
+    content: "​How many seas must a white dove sail "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.2956349206%,
+  44.5426507937% {
+    content: "​How many seas must a white dove sail b";
+    content: "​How many seas must a white dove sail b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.5436507937%,
+  44.7906666667% {
+    content: "​How many seas must a white dove sail be";
+    content: "​How many seas must a white dove sail be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  44.7916666667%,
+  45.0386825397% {
+    content: "​How many seas must a white dove sail bef";
+    content: "​How many seas must a white dove sail bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.0396825397%,
+  45.2866984127% {
+    content: "​How many seas must a white dove sail befo";
+    content: "​How many seas must a white dove sail befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.2876984127%,
+  45.5347142857% {
+    content: "​How many seas must a white dove sail befor";
+    content: "​How many seas must a white dove sail befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.5357142857%,
+  45.7827301587% {
+    content: "​How many seas must a white dove sail before";
+    content: "​How many seas must a white dove sail before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  45.7837301587%,
+  46.0307460317% {
+    content: "​How many seas must a white dove sail before ";
+    content: "​How many seas must a white dove sail before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.0317460317%,
+  46.2787619048% {
+    content: "​How many seas must a white dove sail before s";
+    content: "​How many seas must a white dove sail before s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.2797619048%,
+  46.5267777778% {
+    content: "​How many seas must a white dove sail before sh";
+    content: "​How many seas must a white dove sail before sh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.5277777778%,
+  46.7747936508% {
+    content: "​How many seas must a white dove sail before she";
+    content: "​How many seas must a white dove sail before she"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  46.7757936508%,
+  47.0228095238% {
+    content: "​How many seas must a white dove sail before she ";
+    content: "​How many seas must a white dove sail before she "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.0238095238%,
+  47.2708253968% {
+    content: "​How many seas must a white dove sail before she s";
+    content: "​How many seas must a white dove sail before she s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.2718253968%,
+  47.5188412698% {
+    content: "​How many seas must a white dove sail before she sl";
+    content: "​How many seas must a white dove sail before she sl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.5198412698%,
+  47.7668571429% {
+    content: "​How many seas must a white dove sail before she sle";
+    content: "​How many seas must a white dove sail before she sle"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  47.7678571429%,
+  48.0148730159% {
+    content: "​How many seas must a white dove sail before she slee";
+    content: "​How many seas must a white dove sail before she slee"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.0158730159%,
+  48.2628888889% {
+    content: "​How many seas must a white dove sail before she sleep";
+    content: "​How many seas must a white dove sail before she sleep"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.2638888889%,
+  48.5109047619% {
+    content: "​How many seas must a white dove sail before she sleeps";
+    content: "​How many seas must a white dove sail before she sleeps"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.5119047619%,
+  48.7589206349% {
+    content: "​How many seas must a white dove sail before she sleeps ";
+    content: "​How many seas must a white dove sail before she sleeps "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  48.7599206349%,
+  49.0069365079% {
+    content: "​How many seas must a white dove sail before she sleeps i";
+    content: "​How many seas must a white dove sail before she sleeps i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.0079365079%,
+  49.254952381% {
+    content: "​How many seas must a white dove sail before she sleeps in";
+    content: "​How many seas must a white dove sail before she sleeps in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.255952381%,
+  49.502968254% {
+    content: "​How many seas must a white dove sail before she sleeps in ";
+    content: "​How many seas must a white dove sail before she sleeps in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.503968254%,
+  49.750984127% {
+    content: "​How many seas must a white dove sail before she sleeps in t";
+    content: "​How many seas must a white dove sail before she sleeps in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  49.751984127%,
+  49.999% {
+    content: "​How many seas must a white dove sail before she sleeps in th";
+    content: "​How many seas must a white dove sail before she sleeps in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50%,
+  50.247015873% {
+    content: "​How many seas must a white dove sail before she sleeps in the";
+    content: "​How many seas must a white dove sail before she sleeps in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.248015873%,
+  50.495031746% {
+    content: "​How many seas must a white dove sail before she sleeps in the ";
+    content: "​How many seas must a white dove sail before she sleeps in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.496031746%,
+  50.743047619% {
+    content: "​How many seas must a white dove sail before she sleeps in the s";
+    content: "​How many seas must a white dove sail before she sleeps in the s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.744047619%,
+  50.9910634921% {
+    content: "​How many seas must a white dove sail before she sleeps in the sa";
+    content: "​How many seas must a white dove sail before she sleeps in the sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  50.9920634921%,
+  51.2390793651% {
+    content: "​How many seas must a white dove sail before she sleeps in the san";
+    content: "​How many seas must a white dove sail before she sleeps in the san"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  51.2400793651%,
+  51.4870952381% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand";
+    content: "​How many seas must a white dove sail before she sleeps in the sand"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  51.4880952381%,
+  56.8938412698% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand?";
+    content: "​How many seas must a white dove sail before she sleeps in the sand?"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  56.8948412698%,
+  57.0922539683% {
+    content: "​How many seas must a white dove sail before she sleeps in the sand";
+    content: "​How many seas must a white dove sail before she sleeps in the sand"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.0932539683%,
+  57.2906666667% {
+    content: "​How many seas must a white dove sail before she sleeps in the san";
+    content: "​How many seas must a white dove sail before she sleeps in the san"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.2916666667%,
+  57.4890793651% {
+    content: "​How many seas must a white dove sail before she sleeps in the sa";
+    content: "​How many seas must a white dove sail before she sleeps in the sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.4900793651%,
+  57.6874920635% {
+    content: "​How many seas must a white dove sail before she sleeps in the s";
+    content: "​How many seas must a white dove sail before she sleeps in the s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.6884920635%,
+  57.8859047619% {
+    content: "​How many seas must a white dove sail before she sleeps in the ";
+    content: "​How many seas must a white dove sail before she sleeps in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  57.8869047619%,
+  58.0843174603% {
+    content: "​How many seas must a white dove sail before she sleeps in the";
+    content: "​How many seas must a white dove sail before she sleeps in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.0853174603%,
+  58.2827301587% {
+    content: "​How many seas must a white dove sail before she sleeps in th";
+    content: "​How many seas must a white dove sail before she sleeps in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.2837301587%,
+  58.4811428571% {
+    content: "​How many seas must a white dove sail before she sleeps in t";
+    content: "​How many seas must a white dove sail before she sleeps in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.4821428571%,
+  58.6795555556% {
+    content: "​How many seas must a white dove sail before she sleeps in ";
+    content: "​How many seas must a white dove sail before she sleeps in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.6805555556%,
+  58.877968254% {
+    content: "​How many seas must a white dove sail before she sleeps in";
+    content: "​How many seas must a white dove sail before she sleeps in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  58.878968254%,
+  59.0763809524% {
+    content: "​How many seas must a white dove sail before she sleeps i";
+    content: "​How many seas must a white dove sail before she sleeps i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.0773809524%,
+  59.2747936508% {
+    content: "​How many seas must a white dove sail before she sleeps ";
+    content: "​How many seas must a white dove sail before she sleeps "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.2757936508%,
+  59.4732063492% {
+    content: "​How many seas must a white dove sail before she sleeps";
+    content: "​How many seas must a white dove sail before she sleeps"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.4742063492%,
+  59.6716190476% {
+    content: "​How many seas must a white dove sail before she sleep";
+    content: "​How many seas must a white dove sail before she sleep"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.6726190476%,
+  59.870031746% {
+    content: "​How many seas must a white dove sail before she slee";
+    content: "​How many seas must a white dove sail before she slee"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  59.871031746%,
+  60.0684444444% {
+    content: "​How many seas must a white dove sail before she sle";
+    content: "​How many seas must a white dove sail before she sle"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.0694444444%,
+  60.2668571429% {
+    content: "​How many seas must a white dove sail before she sl";
+    content: "​How many seas must a white dove sail before she sl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.2678571429%,
+  60.4652698413% {
+    content: "​How many seas must a white dove sail before she s";
+    content: "​How many seas must a white dove sail before she s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.4662698413%,
+  60.6636825397% {
+    content: "​How many seas must a white dove sail before she ";
+    content: "​How many seas must a white dove sail before she "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.6646825397%,
+  60.8620952381% {
+    content: "​How many seas must a white dove sail before she";
+    content: "​How many seas must a white dove sail before she"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  60.8630952381%,
+  61.0605079365% {
+    content: "​How many seas must a white dove sail before sh";
+    content: "​How many seas must a white dove sail before sh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.0615079365%,
+  61.2589206349% {
+    content: "​How many seas must a white dove sail before s";
+    content: "​How many seas must a white dove sail before s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.2599206349%,
+  61.4573333333% {
+    content: "​How many seas must a white dove sail before ";
+    content: "​How many seas must a white dove sail before "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.4583333333%,
+  61.6557460317% {
+    content: "​How many seas must a white dove sail before";
+    content: "​How many seas must a white dove sail before"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.6567460317%,
+  61.8541587302% {
+    content: "​How many seas must a white dove sail befor";
+    content: "​How many seas must a white dove sail befor"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  61.8551587302%,
+  62.0525714286% {
+    content: "​How many seas must a white dove sail befo";
+    content: "​How many seas must a white dove sail befo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.0535714286%,
+  62.250984127% {
+    content: "​How many seas must a white dove sail bef";
+    content: "​How many seas must a white dove sail bef"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.251984127%,
+  62.4493968254% {
+    content: "​How many seas must a white dove sail be";
+    content: "​How many seas must a white dove sail be"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.4503968254%,
+  62.6478095238% {
+    content: "​How many seas must a white dove sail b";
+    content: "​How many seas must a white dove sail b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.6488095238%,
+  62.8462222222% {
+    content: "​How many seas must a white dove sail ";
+    content: "​How many seas must a white dove sail "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  62.8472222222%,
+  63.0446349206% {
+    content: "​How many seas must a white dove sail";
+    content: "​How many seas must a white dove sail"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.0456349206%,
+  63.243047619% {
+    content: "​How many seas must a white dove sai";
+    content: "​How many seas must a white dove sai"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.244047619%,
+  63.4414603175% {
+    content: "​How many seas must a white dove sa";
+    content: "​How many seas must a white dove sa"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.4424603175%,
+  63.6398730159% {
+    content: "​How many seas must a white dove s";
+    content: "​How many seas must a white dove s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.6408730159%,
+  63.8382857143% {
+    content: "​How many seas must a white dove ";
+    content: "​How many seas must a white dove "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  63.8392857143%,
+  64.0366984127% {
+    content: "​How many seas must a white dove";
+    content: "​How many seas must a white dove"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.0376984127%,
+  64.2351111111% {
+    content: "​How many seas must a white dov";
+    content: "​How many seas must a white dov"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.2361111111%,
+  64.4335238095% {
+    content: "​How many seas must a white do";
+    content: "​How many seas must a white do"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.4345238095%,
+  64.6319365079% {
+    content: "​How many seas must a white d";
+    content: "​How many seas must a white d"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.6329365079%,
+  64.8303492063% {
+    content: "​How many seas must a white ";
+    content: "​How many seas must a white "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  64.8313492063%,
+  65.0287619048% {
+    content: "​How many seas must a white";
+    content: "​How many seas must a white"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.0297619048%,
+  65.2271746032% {
+    content: "​How many seas must a whit";
+    content: "​How many seas must a whit"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.2281746032%,
+  65.4255873016% {
+    content: "​How many seas must a whi";
+    content: "​How many seas must a whi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.4265873016%,
+  65.624% {
+    content: "​How many seas must a wh";
+    content: "​How many seas must a wh"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.625%,
+  65.8224126984% {
+    content: "​How many seas must a w";
+    content: "​How many seas must a w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  65.8234126984%,
+  66.0208253968% {
+    content: "​How many seas must a ";
+    content: "​How many seas must a "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.0218253968%,
+  66.2192380952% {
+    content: "​How many seas must a";
+    content: "​How many seas must a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.2202380952%,
+  66.4176507937% {
+    content: "​How many seas must ";
+    content: "​How many seas must "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.4186507937%,
+  66.6160634921% {
+    content: "​How many seas must";
+    content: "​How many seas must"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.6170634921%,
+  66.8144761905% {
+    content: "​How many seas mus";
+    content: "​How many seas mus"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  66.8154761905%,
+  67.0128888889% {
+    content: "​How many seas mu";
+    content: "​How many seas mu"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.0138888889%,
+  67.2113015873% {
+    content: "​How many seas m";
+    content: "​How many seas m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.2123015873%,
+  67.4097142857% {
+    content: "​How many seas ";
+    content: "​How many seas "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.4107142857%,
+  67.6081269841% {
+    content: "​How many seas";
+    content: "​How many seas"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.6091269841%,
+  67.8065396825% {
+    content: "​How many sea";
+    content: "​How many sea"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  67.8075396825%,
+  68.004952381% {
+    content: "​How many se";
+    content: "​How many se"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.005952381%,
+  68.2033650794% {
+    content: "​How many s";
+    content: "​How many s"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.2043650794%,
+  68.4017777778% {
+    content: "​How many ";
+    content: "​How many "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.4027777778%,
+  68.6001904762% {
+    content: "​How many";
+    content: "​How many"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.6011904762%,
+  68.7986031746% {
+    content: "​How man";
+    content: "​How man"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.7996031746%,
+  68.997015873% {
+    content: "​How ma";
+    content: "​How ma"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  68.998015873%,
+  69.1954285714% {
+    content: "​How m";
+    content: "​How m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.1964285714%,
+  69.3938412698% {
+    content: "​How ";
+    content: "​How "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.3948412698%,
+  69.5922539683% {
+    content: "​How";
+    content: "​How"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.5932539683%,
+  69.7906666667% {
+    content: "​Ho";
+    content: "​Ho"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.7916666667%,
+  69.9890793651% {
+    content: "​H";
+    content: "​H"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  69.9900793651%,
+  72.4692380952% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.4702380952%,
+  72.7172539683% {
+    content: "​T";
+    content: "​T"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.7182539683%,
+  72.9652698413% {
+    content: "​Th";
+    content: "​Th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  72.9662698413%,
+  73.2132857143% {
+    content: "​The";
+    content: "​The"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.2142857143%,
+  73.4613015873% {
+    content: "​The ";
+    content: "​The "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.4623015873%,
+  73.7093174603% {
+    content: "​The a";
+    content: "​The a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.7103174603%,
+  73.9573333333% {
+    content: "​The an";
+    content: "​The an"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  73.9583333333%,
+  74.2053492063% {
+    content: "​The ans";
+    content: "​The ans"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.2063492063%,
+  74.4533650794% {
+    content: "​The answ";
+    content: "​The answ"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.4543650794%,
+  74.7013809524% {
+    content: "​The answe";
+    content: "​The answe"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.7023809524%,
+  74.9493968254% {
+    content: "​The answer";
+    content: "​The answer"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  74.9503968254%,
+  75.1974126984% {
+    content: "​The answer,";
+    content: "​The answer,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.1984126984%,
+  75.4454285714% {
+    content: "​The answer, ";
+    content: "​The answer, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.4464285714%,
+  75.6934444444% {
+    content: "​The answer, m";
+    content: "​The answer, m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.6944444444%,
+  75.9414603175% {
+    content: "​The answer, my";
+    content: "​The answer, my"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  75.9424603175%,
+  76.1894761905% {
+    content: "​The answer, my ";
+    content: "​The answer, my "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.1904761905%,
+  76.4374920635% {
+    content: "​The answer, my f";
+    content: "​The answer, my f"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.4384920635%,
+  76.6855079365% {
+    content: "​The answer, my fr";
+    content: "​The answer, my fr"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.6865079365%,
+  76.9335238095% {
+    content: "​The answer, my fri";
+    content: "​The answer, my fri"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  76.9345238095%,
+  77.1815396825% {
+    content: "​The answer, my frie";
+    content: "​The answer, my frie"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.1825396825%,
+  77.4295555556% {
+    content: "​The answer, my frien";
+    content: "​The answer, my frien"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.4305555556%,
+  77.6775714286% {
+    content: "​The answer, my friend";
+    content: "​The answer, my friend"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.6785714286%,
+  77.9255873016% {
+    content: "​The answer, my friend,";
+    content: "​The answer, my friend,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  77.9265873016%,
+  78.1736031746% {
+    content: "​The answer, my friend, ";
+    content: "​The answer, my friend, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.1746031746%,
+  78.4216190476% {
+    content: "​The answer, my friend, i";
+    content: "​The answer, my friend, i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.4226190476%,
+  78.6696349206% {
+    content: "​The answer, my friend, is";
+    content: "​The answer, my friend, is"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.6706349206%,
+  78.9176507937% {
+    content: "​The answer, my friend, is ";
+    content: "​The answer, my friend, is "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  78.9186507937%,
+  79.1656666667% {
+    content: "​The answer, my friend, is b";
+    content: "​The answer, my friend, is b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.1666666667%,
+  79.4136825397% {
+    content: "​The answer, my friend, is bl";
+    content: "​The answer, my friend, is bl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.4146825397%,
+  79.6616984127% {
+    content: "​The answer, my friend, is blo";
+    content: "​The answer, my friend, is blo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.6626984127%,
+  79.9097142857% {
+    content: "​The answer, my friend, is blow";
+    content: "​The answer, my friend, is blow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  79.9107142857%,
+  80.1577301587% {
+    content: "​The answer, my friend, is blowi";
+    content: "​The answer, my friend, is blowi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.1587301587%,
+  80.4057460317% {
+    content: "​The answer, my friend, is blowin";
+    content: "​The answer, my friend, is blowin"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.4067460317%,
+  80.6537619048% {
+    content: "​The answer, my friend, is blowin'";
+    content: "​The answer, my friend, is blowin'"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.6547619048%,
+  80.9017777778% {
+    content: "​The answer, my friend, is blowin' ";
+    content: "​The answer, my friend, is blowin' "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  80.9027777778%,
+  81.1497936508% {
+    content: "​The answer, my friend, is blowin' i";
+    content: "​The answer, my friend, is blowin' i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.1507936508%,
+  81.3978095238% {
+    content: "​The answer, my friend, is blowin' in";
+    content: "​The answer, my friend, is blowin' in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.3988095238%,
+  81.6458253968% {
+    content: "​The answer, my friend, is blowin' in ";
+    content: "​The answer, my friend, is blowin' in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.6468253968%,
+  81.8938412698% {
+    content: "​The answer, my friend, is blowin' in t";
+    content: "​The answer, my friend, is blowin' in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  81.8948412698%,
+  82.1418571429% {
+    content: "​The answer, my friend, is blowin' in th";
+    content: "​The answer, my friend, is blowin' in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.1428571429%,
+  82.3898730159% {
+    content: "​The answer, my friend, is blowin' in the";
+    content: "​The answer, my friend, is blowin' in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.3908730159%,
+  82.6378888889% {
+    content: "​The answer, my friend, is blowin' in the ";
+    content: "​The answer, my friend, is blowin' in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.6388888889%,
+  82.8859047619% {
+    content: "​The answer, my friend, is blowin' in the w";
+    content: "​The answer, my friend, is blowin' in the w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  82.8869047619%,
+  83.1339206349% {
+    content: "​The answer, my friend, is blowin' in the wi";
+    content: "​The answer, my friend, is blowin' in the wi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  83.1349206349%,
+  83.3819365079% {
+    content: "​The answer, my friend, is blowin' in the win";
+    content: "​The answer, my friend, is blowin' in the win"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  83.3829365079%,
+  88.7886825397% {
+    content: "​The answer, my friend, is blowin' in the wind";
+    content: "​The answer, my friend, is blowin' in the wind"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  88.7896825397%,
+  88.9870952381% {
+    content: "​The answer, my friend, is blowin' in the win";
+    content: "​The answer, my friend, is blowin' in the win"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  88.9880952381%,
+  89.1855079365% {
+    content: "​The answer, my friend, is blowin' in the wi";
+    content: "​The answer, my friend, is blowin' in the wi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.1865079365%,
+  89.3839206349% {
+    content: "​The answer, my friend, is blowin' in the w";
+    content: "​The answer, my friend, is blowin' in the w"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.3849206349%,
+  89.5823333333% {
+    content: "​The answer, my friend, is blowin' in the ";
+    content: "​The answer, my friend, is blowin' in the "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.5833333333%,
+  89.7807460317% {
+    content: "​The answer, my friend, is blowin' in the";
+    content: "​The answer, my friend, is blowin' in the"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.7817460317%,
+  89.9791587302% {
+    content: "​The answer, my friend, is blowin' in th";
+    content: "​The answer, my friend, is blowin' in th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  89.9801587302%,
+  90.1775714286% {
+    content: "​The answer, my friend, is blowin' in t";
+    content: "​The answer, my friend, is blowin' in t"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.1785714286%,
+  90.375984127% {
+    content: "​The answer, my friend, is blowin' in ";
+    content: "​The answer, my friend, is blowin' in "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.376984127%,
+  90.5743968254% {
+    content: "​The answer, my friend, is blowin' in";
+    content: "​The answer, my friend, is blowin' in"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.5753968254%,
+  90.7728095238% {
+    content: "​The answer, my friend, is blowin' i";
+    content: "​The answer, my friend, is blowin' i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.7738095238%,
+  90.9712222222% {
+    content: "​The answer, my friend, is blowin' ";
+    content: "​The answer, my friend, is blowin' "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  90.9722222222%,
+  91.1696349206% {
+    content: "​The answer, my friend, is blowin'";
+    content: "​The answer, my friend, is blowin'"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.1706349206%,
+  91.368047619% {
+    content: "​The answer, my friend, is blowin";
+    content: "​The answer, my friend, is blowin"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.369047619%,
+  91.5664603175% {
+    content: "​The answer, my friend, is blowi";
+    content: "​The answer, my friend, is blowi"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.5674603175%,
+  91.7648730159% {
+    content: "​The answer, my friend, is blow";
+    content: "​The answer, my friend, is blow"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.7658730159%,
+  91.9632857143% {
+    content: "​The answer, my friend, is blo";
+    content: "​The answer, my friend, is blo"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  91.9642857143%,
+  92.1616984127% {
+    content: "​The answer, my friend, is bl";
+    content: "​The answer, my friend, is bl"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.1626984127%,
+  92.3601111111% {
+    content: "​The answer, my friend, is b";
+    content: "​The answer, my friend, is b"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.3611111111%,
+  92.5585238095% {
+    content: "​The answer, my friend, is ";
+    content: "​The answer, my friend, is "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.5595238095%,
+  92.7569365079% {
+    content: "​The answer, my friend, is";
+    content: "​The answer, my friend, is"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.7579365079%,
+  92.9553492063% {
+    content: "​The answer, my friend, i";
+    content: "​The answer, my friend, i"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  92.9563492063%,
+  93.1537619048% {
+    content: "​The answer, my friend, ";
+    content: "​The answer, my friend, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.1547619048%,
+  93.3521746032% {
+    content: "​The answer, my friend,";
+    content: "​The answer, my friend,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.3531746032%,
+  93.5505873016% {
+    content: "​The answer, my friend";
+    content: "​The answer, my friend"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.5515873016%,
+  93.749% {
+    content: "​The answer, my frien";
+    content: "​The answer, my frien"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.75%,
+  93.9474126984% {
+    content: "​The answer, my frie";
+    content: "​The answer, my frie"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  93.9484126984%,
+  94.1458253968% {
+    content: "​The answer, my fri";
+    content: "​The answer, my fri"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.1468253968%,
+  94.3442380952% {
+    content: "​The answer, my fr";
+    content: "​The answer, my fr"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.3452380952%,
+  94.5426507937% {
+    content: "​The answer, my f";
+    content: "​The answer, my f"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.5436507937%,
+  94.7410634921% {
+    content: "​The answer, my ";
+    content: "​The answer, my "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.7420634921%,
+  94.9394761905% {
+    content: "​The answer, my";
+    content: "​The answer, my"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  94.9404761905%,
+  95.1378888889% {
+    content: "​The answer, m";
+    content: "​The answer, m"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.1388888889%,
+  95.3363015873% {
+    content: "​The answer, ";
+    content: "​The answer, "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.3373015873%,
+  95.5347142857% {
+    content: "​The answer,";
+    content: "​The answer,"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.5357142857%,
+  95.7331269841% {
+    content: "​The answer";
+    content: "​The answer"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.7341269841%,
+  95.9315396825% {
+    content: "​The answe";
+    content: "​The answe"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  95.9325396825%,
+  96.129952381% {
+    content: "​The answ";
+    content: "​The answ"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.130952381%,
+  96.3283650794% {
+    content: "​The ans";
+    content: "​The ans"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.3293650794%,
+  96.5267777778% {
+    content: "​The an";
+    content: "​The an"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.5277777778%,
+  96.7251904762% {
+    content: "​The a";
+    content: "​The a"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.7261904762%,
+  96.9236031746% {
+    content: "​The ";
+    content: "​The "/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  96.9246031746%,
+  97.122015873% {
+    content: "​The";
+    content: "​The"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.123015873%,
+  97.3204285714% {
+    content: "​Th";
+    content: "​Th"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.3214285714%,
+  97.5188412698% {
+    content: "​T";
+    content: "​T"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+  97.5198412698%,
+  100% {
+    content: "​";
+    content: "​"/"How many roads must a man walk down before you call him a man?";
+    alt: "How many roads must a man walk down before you call him a man?";
+  }
+}
+@-webkit-keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper > input:focus + .placeholder,
+.input-wrapper > input:active + .placeholder {
+  display: none;
+}
